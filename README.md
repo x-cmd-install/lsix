@@ -33,7 +33,7 @@ Total: **210** lines of code across **2** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 4,175 · **Forks**: 124 · **Open issues**: 62 · **Contributors**: 5
+- **Stars**: 4,176 · **Forks**: 124 · **Open issues**: 62 · **Contributors**: 5
 
 ## Totals (cumulative)
 
@@ -74,4 +74,4 @@ Install metadata for lsix lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T20:43:11Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T23:09:15Z._
