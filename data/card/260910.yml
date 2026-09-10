@@ -103,4 +103,3 @@ total:
 ---
 
 ---
-{"id":160175080,"author":{"login":"hackerb9","id":10174223,"node_id":"MDQ6VXNlcjEwMTc0MjIz","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOBZIkAc4JjBPo","tag_name":"1.9.1","target_commitish":"master","name":"Alias montage","draft":false,"immutable":false,"prerelease":false,"created_at":"2024-06-12T21:22:26Z","updated_at":"2024-06-12T21:28:44Z","published_at":"2024-06-12T21:28:44Z","assets":[],"body":"Turns out ImageMagick 7 has deprecated using `magick convert` as well, which is silly. Our solution: alias both `convert` and `montage` to do the right thing for IM7. This is uglier than the previous solution, but that's okay if it works.","reactions":{"total_count":1,"+1":0,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":0,"rocket":0,"eyes":1}}
