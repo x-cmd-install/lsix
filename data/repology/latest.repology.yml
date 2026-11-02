@@ -1,3 +1,17 @@
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: lsix
+  binnames:
+    - lsix
+  visiblename: lsix
+  version: 1.9.1
+  origversion: 1.9.1-2
+  status: newest
+  maintainers:
+    - n@sail.ng
+    - tar@debian.org
+  categories:
+    - misc
 - repo: alpine_edge
   subrepo: testing
   srcname: lsix
@@ -90,20 +104,6 @@
     - tar@debian.org
   categories:
     - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: lsix
-  binnames:
-    - lsix
-  visiblename: lsix
-  version: 1.9.1
-  origversion: 1.9.1-2
-  status: newest
-  maintainers:
-    - n@sail.ng
-    - tar@debian.org
-  categories:
-    - misc
 - repo: freebsd
   srcname: misc/lsix
   binname: lsix
@@ -157,28 +157,6 @@
     - tar@debian.org
   categories:
     - misc
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: lsix
-  binname: lsix
-  visiblename: lsix
-  version: 1.9.1
-  origversion: 1.9.1-1
-  status: newest
-  summary: Like ls, but for images, shows thumbnails in terminal using sixel graphics
-  licenses:
-    - GPL-3.0-or-later
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: lsix
-  binname: lsix
-  visiblename: lsix
-  version: 1.9.1
-  origversion: 1.9.1-2
-  status: newest
-  summary: Like ls, but for images, shows thumbnails in terminal using sixel graphics
-  licenses:
-    - GPL-3.0-or-later
 - repo: manjaro_unstable
   subrepo: extra
   srcname: lsix
