@@ -1,17 +1,15 @@
-- repo: devuan_unstable
-  subrepo: unstable/main
+- repo: nix_stable_24_05
   srcname: lsix
-  binnames:
-    - lsix
   visiblename: lsix
-  version: 1.9.1
-  origversion: 1.9.1-2
-  status: newest
+  version: 1.8.2
+  origversion: null
+  status: outdated
+  summary: Shows thumbnails in terminal using sixel graphics
   maintainers:
-    - n@sail.ng
-    - tar@debian.org
-  categories:
-    - misc
+    - justinlime1999@gmail.com
+    - hi@xuann.wang
+  licenses:
+    - GPL-3.0-only
 - repo: alpine_edge
   subrepo: testing
   srcname: lsix
@@ -104,6 +102,20 @@
     - tar@debian.org
   categories:
     - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: lsix
+  binnames:
+    - lsix
+  visiblename: lsix
+  version: 1.9.1
+  origversion: 1.9.1-2
+  status: newest
+  maintainers:
+    - n@sail.ng
+    - tar@debian.org
+  categories:
+    - misc
 - repo: freebsd
   srcname: misc/lsix
   binname: lsix
@@ -157,6 +169,28 @@
     - tar@debian.org
   categories:
     - misc
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: lsix
+  binname: lsix
+  visiblename: lsix
+  version: 1.9.1
+  origversion: 1.9.1-2
+  status: newest
+  summary: Like ls, but for images, shows thumbnails in terminal using sixel graphics
+  licenses:
+    - GPL-3.0-or-later
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: lsix
+  binname: lsix
+  visiblename: lsix
+  version: 1.9.1
+  origversion: 1.9.1-2
+  status: newest
+  summary: Like ls, but for images, shows thumbnails in terminal using sixel graphics
+  licenses:
+    - GPL-3.0-or-later
 - repo: manjaro_unstable
   subrepo: extra
   srcname: lsix
@@ -168,18 +202,6 @@
   summary: Like ls, but for images, shows thumbnails in terminal using sixel graphics
   licenses:
     - GPL-3.0-or-later
-- repo: nix_stable_24_05
-  srcname: lsix
-  visiblename: lsix
-  version: 1.8.2
-  origversion: null
-  status: outdated
-  summary: Shows thumbnails in terminal using sixel graphics
-  maintainers:
-    - justinlime1999@gmail.com
-    - hi@xuann.wang
-  licenses:
-    - GPL-3.0-only
 - repo: nix_stable_24_11
   srcname: lsix
   visiblename: lsix
@@ -252,7 +274,7 @@
   licenses:
     - GPL-3.0-or-later
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: lsix
   binnames:
     - lsix
@@ -266,7 +288,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: lsix
   binnames:
     - lsix
@@ -420,6 +442,20 @@
     - universe/misc
 - repo: ubuntu_26_10
   subrepo: stonking/universe
+  srcname: lsix
+  binnames:
+    - lsix
+  visiblename: lsix
+  version: 1.9.1
+  origversion: 1.9.1-2build1
+  status: newest
+  maintainers:
+    - n@sail.ng
+    - tar@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: lsix
   binnames:
     - lsix
